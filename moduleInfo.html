@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>A3</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="libraries/jquery-3.2.1.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link href="css/custom.css" type = "text/css" rel="stylesheet">
+  <link href="css/modules.css" type = "text/css" rel="stylesheet">
+
+  <!-- Custom JS -->
+  <!-- <script type="text/javascript" src="js/modules.js"></script> -->
+
+
+
+
+
+</head>
+
+<body>
+  <div id="sideBar">
+    LOGO
+    <hr>
+    <ul>
+      <li class="noncurrentIcon">
+        <a href="index.html">
+            <img src="images/dashboard.png" ><br>
+          Dashboard
+        </a>
+      </li>
+      <li id="currentIcon">
+        <a href="modules.html" >
+            <img src="images/bookSelected.png" ><br>
+          Modules
+        </a>
+
+      </li>
+
+      <li class="noncurrentIcon">
+        <a href="marking.html">
+            <img src="images/sheet_tick.png" ><br>
+          Marking
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="review.html">
+            <img src="images/magnifying_glass_sheet.png" ><br>
+          Review
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="">
+            <img src="images/group.png" ><br>
+          Group
+
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="">
+          <img src="images/person.png" ><br>
+          User Profile
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="mainContent">
+    <div id="dashboardHeader">
+      <div id="headerText"><h1>Modules</h1></div>
+    </div>
+    <div id="moduleInfoPage">
+
+      <!-- Back button-->
+      <a id="backButton" href="modules.html">
+        <img src="images/backButton.png" width= "30px" height="30px" />
+
+      </a>
+
+      <!-- Coriolanus Info -->
+      <div id="moduleInformationHeader" >
+        <a href="modules.html" id="coriolanusCard" class="moduleCard">
+          <img src="images/swordShield.png" width="100px" height="150px" />
+
+          Coriolanus
+        </a>
+        <div id="moduleDescription">
+          <h1>Coriolanus</h1>
+          <p>
+          Coriolanus is a tragedy by
+          William Shakespeare, believed to have been written between 1605
+          and 1608. The play is based on the life of the legendary Roman
+          leader Caius Marcius Coriolanus. The tragedy is numbered as one
+          of the last two tragedies written by Shakespeare, along with Antony
+           and Cleopatra.<br>
+
+          Coriolanus is the name given to a Roman general after his more than
+           adequate military success against various uprisings challenging
+           the government of Rome. Following this success, Coriolanus becomes
+            active in politics and seeks political leadership.
+          </p>
+        </div>
+
+        </div>
+
+
+
+        <!-- ToDo List -->
+        <div id="toDoListContainer" class="listContainer">
+          <div id="ListHeader">
+            To Do
+          </div>
+          <a href="assignment1.html" id="a1Bar" class="assignmentBar">
+            <img src="images/roundedSquare.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 1
+            </p>
+            <p>
+              Case Study
+            </p>
+            <p>
+              due by 16:00 Sun, 2 Jan 2017
+            </p>
+
+          </a>
+          <a href="" id="a2Bar" class="assignmentBar assignmentBarShaded">
+            <img src="images/roundedSquare.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 2
+            </p>
+            <p>
+              Essay
+            </p>
+            <p>
+              due by 16:00 Mon, 3 Jan 2017
+            </p>
+
+          </a>
+          <a href="" id="a3Bar" class="assignmentBar">
+            <img src="images/roundedSquareHourglass.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 3
+            </p>
+            <p>
+              Case Study
+            </p>
+            <p>
+              due by 20:00 Tue, 4 Jan 2017
+            </p>
+
+          </a>
+        </div>
+
+        <!--Completed List-->
+        <div id="haveDoneListContainer" class="listContainer">
+          <div id="ListHeader">
+            Completed
+          </div>
+          <a href="" id="a1Bar" class="assignmentBar">
+            <img src="images/roundedSquareTick.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 4
+            </p>
+            <p>
+              Case Study
+            </p>
+            <p>
+              due by 12:00 Sat, 1 Jan 2017
+            </p>
+
+          </a>
+          <a href="" id="a2Bar" class="assignmentBar assignmentBarShaded">
+            <img src="images/roundedSquareTick.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 5
+            </p>
+            <p>
+              Essay
+            </p>
+            <p>
+              due by 16:00 Sat, 1 Jan 2017
+            </p>
+
+          </a>
+          <a href="" id="a3Bar" class="assignmentBar">
+            <img src="images/roundedSquareTick.png" width="20px" height= "20px"/>
+            <p>
+              Assignment 6
+            </p>
+            <p>
+              Essay
+            </p>
+            <p>
+              due by 20:00 Fri, 31 Dec 2016
+            </p>
+
+          </a>
+        </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

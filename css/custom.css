@@ -1,0 +1,119 @@
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Proxima Nova','Helvetica','Corbel',sans-serif;
+
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+#sideBar {
+  float: left;
+  padding-top: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width:110px;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(63,70,82);
+  align-items: center;
+  overflow-y: auto;
+
+}
+
+#sideBar a {
+  text-decoration: none;
+  color: white;
+}
+
+#sideBar hr {
+  width: 100%;
+}
+
+#sideBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+#sideBar li {
+  padding-top: 12px;
+  padding-bottom: 6px;
+
+}
+
+#sideBar .noncurrentIcon:hover {
+  width: 95px;
+}
+
+#sideBar img {
+  max-width:90%;
+  height: 60px;
+}
+
+#currentIcon {
+  font-weight: bold;
+  background-color: white;
+  background-image: url("../images/selectedIconBackground.png");
+
+
+}
+
+#currentIcon:hover {
+  width: 110px;
+}
+#currentIcon > a {
+  color: rgb(63,70,82);
+}
+
+
+#mainContent {
+  width: 100%;
+
+}
+
+#dashboardHeader {
+  height: 90px;
+  background-color: #05568D;
+  padding-top: 2px;
+
+}
+
+#headerText {
+  width: 170px;
+  height: 50%;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 25px;
+  border-bottom: 1.7px solid white;
+}
+
+#headerText h1 {
+  font-size: 34px;
+}

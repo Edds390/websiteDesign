@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>A3</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="libraries/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="libraries/bootstrap.min.js"></script>
+
+
+  <!-- Custom CSS -->
+  <link href="css/custom.css" type = "text/css" rel="stylesheet">
+  <link href="css/modules.css" type = "text/css" rel="stylesheet">
+  <link href="css/assignment1.css" type = "text/css" rel="stylesheet">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/assignment1.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <!--Sidebar -->
+  <div id="sideBar">
+    LOGO
+    <hr>
+    <ul>
+      <li class="noncurrentIcon">
+        <a href="index.html">
+            <img src="images/dashboard.png" ><br>
+          Dashboard
+        </a>
+      </li>
+      <li id="currentIcon">
+        <a href="modules.html" >
+            <img src="images/bookSelected.png" ><br>
+          Modules
+        </a>
+
+      </li>
+
+      <li class="noncurrentIcon">
+        <a href="marking.html">
+            <img src="images/sheet_tick.png" ><br>
+          Marking
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="review.html">
+            <img src="images/magnifying_glass_sheet.png" ><br>
+          Review
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="">
+            <img src="images/group.png" ><br>
+          Group
+
+        </a>
+      </li>
+      <li class="noncurrentIcon">
+        <a href="">
+          <img src="images/person.png" ><br>
+          User Profile
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Header Area -->
+  <div id="mainContent">
+    <div id="dashboardHeader">
+      <div id="headerText"><h1>Assignment 1</h1></div>
+    </div>
+    <div id="assignmentPage">
+      <!-- Case study, qeustion, answer container -->
+      <div id="assignmentContainer">
+        <div id="caseStudyContainer">
+          <!-- make collapsible header-->
+          <!-- https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+          <a id="caseStudyHeader" href="#caseStudyContent" data-toggle="collapse">
+            Case Study<img src="images/upArrow.png" width="20px" height="10px"/>
+          </a>
+          <div id="caseStudyContent" class="collapse in">
+            <h1><img src="images/swordShield.png" width="37px" height="43px" />
+            Coriolanus: Act III Scene I</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ullamcorper velit, eu dapibus lacus. Vivamus interdum, est nec pharetra rhoncus, turpis neque iaculis eros, quis efficitur arcu ligula nec lacus. Integer massa augue, rutrum a cursus et, volutpat at est. Pellentesque cursus ut nibh vitae ornare. Aliquam erat volutpat. Nunc a justo lacinia, gravida erat maximus, volutpat sem. Nam et sapien vitae nunc lobortis convallis. Donec suscipit, purus vel dictum dignissim, purus ipsum imperdiet tortor, a commodo magna lorem et risus. Fusce mattis eleifend sem, et condimentum leo cursus eget. Sed rhoncus, dolor quis tincidunt accumsan, augue lacus fringilla arcu, et elementum mauris mi sed magna.
+            </p>
+            <p>
+              Cras eget erat ornare, varius leo ac, blandit augue. Curabitur eros lectus, hendrerit non lectus vitae, rhoncus sodales mauris. Praesent tincidunt, velit lobortis rutrum accumsan, nisi metus iaculis sem, vitae convallis nisl quam in ipsum. Fusce vulputate quam tellus, sed facilisis neque imperdiet vitae. Maecenas bibendum sollicitudin sapien sit amet accumsan. Donec ac arcu aliquam, egestas velit ac, semper arcu. Donec vel nulla ultrices, volutpat est vel, aliquam libero. In sit amet justo mattis, sollicitudin dui sed, hendrerit ligula. Duis et lacus vel odio ullamcorper porttitor sit amet non mauris.
+            </p>
+            <p>
+              Praesent vitae enim diam. In iaculis dui sed nibh commodo iaculis. Etiam rutrum, neque et finibus iaculis, metus elit varius lorem, eu tempus orci dui ut eros. Pellentesque id neque vel est bibendum fringilla vel in urna. Praesent commodo lobortis nisl scelerisque aliquam. Donec nec consequat augue, vel volutpat nisl. Donec rhoncus lacinia est id tristique. Phasellus nunc mi, condimentum sit amet ullamcorper sed, tincidunt nec odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ex blandit, molestie lorem non, cursus elit. Duis et sapien lectus. Integer aliquet iaculis magna, eu auctor ante semper a. Integer vitae maximus magna. Integer nec feugiat quam. Donec lacinia maximus mauris, vehicula finibus lectus vehicula id. Ut porttitor justo venenatis urna sollicitudin, vitae euismod urna tristique.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div id="answerContainer">
+          <div id="caseStudyHeader">
+            Quiz
+          </div>
+          <div id="answerContent">
+            <div id="questionArea">
+              <h3>Question 1</h3>
+              <p>
+                The passage above is set at the start of Act 3 Scene 1. Using the passage,
+                 explain how the relationship between Coriolanus and his mother is portrayed.
+                  Use quotes to support your analysis.
+              </p>
+            </div>
+            <div id="answerArea">
+              <textarea style="resize: none;"></textarea>
+            </div>
+            <!-- button area -->
+            <div id="buttonArea">
+              <button id="prevButton" type="button" class="btn btn-warning" disabled>&lt; Back</button>
+              <div id="progressDots">
+                <div class="circle" id="selectedCircle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+              <button type="button" id="nextButton" class="btn btn-warning">Next &gt;</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="extraResourcesContainer">
+        hi
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+</body>

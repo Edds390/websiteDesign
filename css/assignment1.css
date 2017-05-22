@@ -1,0 +1,130 @@
+
+
+#headerText {
+  width: 220px;
+}
+
+#assignmentPage {
+  padding-left: 110px;
+}
+
+#assignmentContainer {
+  width: 85%;
+}
+
+#caseStudyContainer, #answerContainer {
+  margin: 20px 10px 0px 20px;
+  box-shadow: 3px 4px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#caseStudyContainer a{
+  text-decoration: none;
+}
+
+#caseStudyHeader {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  padding: 6px 0 0 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#caseStudyHeader img{
+  float: right;
+  margin: 5px 13px 0 0;
+}
+
+
+#caseStudyContent {
+  padding: 0 15px 10px;;
+  overflow: auto;
+  height: 200px;
+  border: 1px solid rgb(226,226,226);
+
+}
+
+#assignmentContainer hr {
+  margin-left: 15px;
+  border-color: rgb(200,200,200);
+}
+
+#questionArea {
+  padding: 12px;
+}
+
+#questionArea h3{
+  color: #F69C1A;
+  margin: 4px 0 6px 0;
+  font-size: 18px;
+  font-weight:600;
+}
+
+#answerArea {
+  padding: 10px 18px 10px 18px;
+
+}
+
+#answerArea textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+
+
+}
+
+#buttonArea {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#buttonArea button {
+  float: left;
+  width: 160px;
+  height: 40px;
+  background-color: #808080;
+  border-color: #808080;
+}
+
+#buttonArea button:active {
+  box-shadow: 1px 1px 15px rgba(246, 156, 26, 0.4), -2px -2px 15px rgba(246, 156, 26, 0.4);
+}
+
+#nextButton:hover {
+  background-color: #F69C1A;
+  border-color: #F69C1A;
+}
+
+#nextButton {
+  float: right;
+}
+
+#progressDots {
+  padding-top: 10px;
+}
+
+.circle {
+  float: left;
+  margin: 0 5px 0 5px;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+}
+
+#selectedCircle {
+  background-color: #F69C1A;
+}
+
+#extraResourcesContainer {
+  width: 25%;
+  position: fixed;
+  top: 110px;
+  right: -150px;
+  background-color: blue;
+}
